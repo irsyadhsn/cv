@@ -21,6 +21,10 @@ body {
   }
 }
 
+nav {
+  background-color: #345b63;
+}
+
 a {
   color: #d4ecdd;
 }
