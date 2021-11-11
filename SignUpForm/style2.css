@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap");
+
+body {
+  background-color: #152d35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+a {
+  color: #d4ecdd;
+}
+
+img {
+  width: 650px;
+  border-radius: 5px;
+  padding-left: -2px;
+}
+
+.container {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 420px;
+  max-width: 100%;
+  margin-right: 45px;
+  margin-top: -653px;
+}
+
+.header {
+  border-bottom: 1px solid #345b63;
+  padding: 20px 40px;
+  background-color: #112031;
+}
+
+.header h2 {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  color: #d4ecdd;
+}
+
+.form {
+  padding: 30px 40px;
+  background-color: #112031;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  border: none;
+  background-color: #112031;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+  background-color: #112031;
+  color: #d4ecdd;
+}
+
+.form-control input {
+  border: 2px solid #112031;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  background-color: #a6e0c5;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #345b63;
+}
+
+.form-control.success input {
+  border-color: #29a15b;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control i {
+  visibility: hidden;
+  position: absolute;
+  top: 45px;
+  right: 25px;
+}
+
+.form-control.success i.bi-check-circle-fill {
+  color: #29a15b;
+  visibility: visible;
+}
+.form-control.error i.bi-exclamation-circle-fill {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control small {
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  background-color: #345b63;
+  border: 2px solid #345b63;
+  border-radius: 4px;
+  color: #d4ecdd;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: -3px;
+  width: 100%;
+}
+
+.guest {
+  color: #d4ecdd;
+  padding-left: 141px;
+  padding-right: 140px;
+  background-color: #112031;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

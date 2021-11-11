@@ -1,0 +1,132 @@
+body {
+  background-color: #152d35;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fontlight {
+  color: #d4ecdd;
+}
+
+.fontdark {
+  color: #152d35;
+}
+
+.fotointro {
+  border-radius: 9%;
+}
+
+nav {
+  background-color: #345b63;
+}
+
+.about {
+  background-color: #152d35;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#about {
+  padding-top: 15rem;
+  background-color: #152d35;
+  padding-bottom: 5rem;
+}
+
+#resume {
+  background-color: #152d35;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+#portofolio {
+  background-color: #152d35;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+#contact {
+  background-color: #152d35;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.container {
+  color: #d4ecdd;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.education {
+  font-size: 22px;
+}
+
+.experience {
+  font-size: 22px;
+}
+
+.skill {
+  font-size: 22px;
+}
+
+.card-body {
+  background-color: #112031;
+}
+
+.card {
+  border-width: 0px;
+  border-color: #152d35;
+}
+
+form {
+  color: #d4ecdd;
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: #345b63;
+  color: #d4ecdd;
+  font-size: 14px;
+}
+
+.progress-bar {
+  background-color: #d4ecdd;
+}
+
+.empty-bar {
+  background-color: #345b63;
+}
+
+.btn-primary {
+  background-color: #345b63;
+  border-color: #345b63;
+  color: #d4ecdd;
+  margin-right: 8px;
+}
+
+.btn-outline-success {
+  border-color: #d4ecdd;
+  background-color: #d4ecdd;
+  color: #152d35;
+  margin-right: 8px;
+}
+
+.signup {
+  background-color: #a6e0c5;
+  border-color: #d4ecdd;
+}
